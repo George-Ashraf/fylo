@@ -1,0 +1,262 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 99999999;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.navbar .navbar-brand {
+    margin-left: 70px;
+}
+
+.navbar .navbar-nav {
+    margin-right: 90px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: black;
+    margin-left: 20px;
+    border-bottom: solid 1px transparent;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: solid 1px black;
+}
+
+.home {
+    margin-top: 130px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+}
+
+.home .row {
+    justify-content: center;
+}
+
+.home .img {
+    height: 500px;
+}
+
+.home .img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.home .text {
+    margin-top: 150px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.home .text h2 {
+    font-size: 40px;
+    color: black;
+}
+
+.home .text p {
+    color: black;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.home .text form input {
+    width: 270px;
+    border: black solid 2px;
+}
+
+.home .text form button {
+    width: 150px;
+    height: 38px;
+    background-color: blue;
+    color: white;
+
+}
+.team {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.team .row {
+    justify-content: center;
+}
+
+.team .img {
+    height: 500px;
+}
+
+.team .img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.team .text {
+    margin-top: 150px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.team .text h2 {
+    font-size: 35px;
+    color: black;
+}
+
+.team .text p {
+    color: black;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.team .text #p2{
+    color: green;
+    text-decoration: underline;
+
+} 
+.team .text #p2 i{
+    margin-left: 10px;
+}
+.team .text .opinion{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+}
+.team .text .opinion i{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.team .text .opinion .person{
+    width: 50%;
+    height: 100px;
+}
+.team .text .opinion .person img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.team .text .opinion .person p{
+    font-size: 10px;
+    position: relative;
+    right:40px
+}
+.access {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    padding-bottom: 50px;
+}
+
+.access .row {
+    justify-content: center;
+}
+
+
+
+.access .text {
+    height: auto;
+    margin-top: 50px;
+}
+
+.access .text h2 {
+    font-size: 40px;
+    color: black;
+}
+
+.access .text p {
+    color: black;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.access .img {
+    margin-top: 50px;
+    height: auto;
+}
+.access .img form {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.access .img form input {
+    width: 370px;
+    border: black solid 2px;
+}
+
+.access .img form button {
+    width: 170px;
+    height: 38px;
+
+    background-color: blue;
+    color: white;
+
+}
+footer{
+    background-color:rgb(3, 3, 85);
+    width: 100%;
+    height:auto;
+    padding-bottom: 30px;
+}
+footer .f{
+    margin-top: 70px;
+    height: 200px;
+    color: white;
+}
+footer .f p i{
+    margin-right: 10px;
+}
+ .fa-facebook,
+ .fa-twitter,
+.fa-instagram
+{
+font-size: 30px;
+margin: 20px 10px;
+}
+@media (max-width:780px) {
+    .navbar .navbar-brand {
+        margin-left: 10px;
+    }
+    .home {
+        margin-top: 0px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .home .text h2 {
+        font-size: 30px;
+        color: black;
+    }
+    .team .text .opinion .person p{
+        font-size: 10px;
+        position: relative;
+        right:0;
+        left:60px;
+        bottom:70px
+      
+}
+footer{
+    background-color:rgb(3, 3, 85);
+    width: 100%;
+    height:auto;
+    padding-bottom: 0px;
+}
+footer .f{
+    margin-top: 20px;
+    height: 200px;
+    color: white;
+}
+footer .f p i{
+    margin-right: 10px;
+}
+ .fa-facebook,
+ .fa-twitter,
+.fa-instagram
+{
+font-size: 30px;
+margin: 10px 10px;
+}
+}
+
